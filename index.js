@@ -15,3 +15,5 @@ let ageIsValid = Number.isInteger(newID);
 let randomNumber = Math.random();
 
 let randomInteger = Math.floor(randomNumber);
+
+let randomUserID = '';
