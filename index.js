@@ -16,4 +16,4 @@ let randomNumber = Math.random();
 
 let randomInteger = Math.floor(randomNumber);
 
-let randomUserID = Math.isInteger(userID);
+let randomUserID = Number.isInteger(userID);
