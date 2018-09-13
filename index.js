@@ -8,12 +8,12 @@ You should NOT try to redefine any of the above variables.
 
 // Write your code below this line!
 
-let newID = 1000000000 + oldID;
+const newID = 1000000000 + oldID;
 
-let ageIsValid = Number.isInteger(newID);
+const ageIsValid = Number.isInteger(newID);
 
-let randomNumber = Math.random();
+const randomNumber = Math.random();
 
-let randomInteger = Math.floor(randomNumber);
+const randomInteger = Math.floor(randomNumber);
 
 let randomUserID = randomInteger + 1000000001;
